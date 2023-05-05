@@ -1,2 +1,2 @@
 # ProtoCSS
- Prototyping UI framwork
+ Prototyping UI framework
