@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProtoCSS UI</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='font.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='buttons.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='div-align.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='table.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='spacing.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='colors.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='width.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='general.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='borders.css') }}">
+</head>
+<body>
+<div class="d-flex jc-center fd-column p-5">
+    <h1 class="font-bold">ProtoCSS</h1>
+    <p class="font-light"><i>ProtoCSS</i> is a front-end framework aimed at speeding up the prototyping process for web
+        applications. It offers pre-made styling options and customizable classes, enabling developers to quickly create
+        visually consistent and responsive designs. This balance between efficiency and customization makes <i>ProtoCSS</i>
+        a valuable resource for crafting user-centric web applications.
+    </p>
+    <p class="font-light">My main goal is to provide a simple and intuitive framework that can be used by developers
+        of all skill levels. We hope you enjoy using <i>ProtoCSS</i> as much as we enjoyed creating it!</p>
+    <p class="font-light">The following examples demonstrate the various features of <i>ProtoCSS</i>.</p>
+
+
+    <!-- Buttons -->
+    <div>
+        <h2 class="font-regular">Buttons</h2>
+        <p class="font-light">Hover over a button to see its effect. The button class name is displayed.</p>
+        <div class="flex mb-5 w-50">
+            {% for btn_class in btn_classes %}
+            <button type="submit" name="{{ btn_class }}" class="m-2 btn {{ btn_class }}">{{ btn_class }}</button>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Colors -->
+    <div>
+        <h2 class="font-regular">Colors</h2>
+        <p class="font-light">Explore the available colors:</p>
+        <div class="flex mb-5 w-50">
+            {% for color in colors %}
+            <div class="{{ color }}">{{ color }}</div>
+            {% endfor %}
+        </div>
+        <div class="flex mb-5 w-50">
+            {% for color in bg_colors %}
+            <div class="{{ color }}">{{ color }}</div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Div Alignment Styles -->
+    <div>
+        <h2 class="font-regular">Div Alignment Styles</h2>
+        <p class="font-light">Here are some example divs showcasing different alignment styles:</p>
+        <div class="example-container mb-5 w-50">
+            {% for class_name in class_names %}
+            <div class="example-box {{ class_name }}">{{ class_name }}</div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Table Styles -->
+    <div>
+        <h2 class="font-regular">Table Styles</h2>
+        <p class="font-light">Here is an example table showcasing different table styles:</p>
+        <table class="example-table mb-5 w-50">
+            <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for table_class in table_classes %}
+            <tr>
+                <td class="{{ table_class }}">Data 1</td>
+                <td class="{{ table_class }}">Data 2</td>
+                <td class="{{ table_class }}">Data 3</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+</body>
+</html>

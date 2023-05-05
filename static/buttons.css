@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Button Styles */
+
+/* Default Button */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #2186c8;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1a6ea1;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #e35f6b;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c84b59;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: #808c94;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #646e75;
+}
+
+/* Success Button */
+.btn-success {
+  background-color: #3cb371;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #2d8c56;
+}
+
+/* Danger Button */
+.btn-danger {
+  background-color: #ffa600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #d48b00;
+}
+
+/* Warning Button */
+.btn-warning {
+  background-color: #ffa600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #d48b00;
+}
+
+/* Info Button */
+.btn-info {
+  background-color: #32acc1;
+  transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #218691;
+}
+
+/* Light Button */
+.btn-light {
+  background-color: #f9fafb;
+  color: #212529;
+  transition: background-color 0.3s ease;
+}
+
+.btn-light:hover {
+  background-color: #e0e3e6;
+}
+
+/* Dark Button */
+.btn-dark {
+  background-color: #3b444b;
+  transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #2b343a;
+}
+
+/* Custom Button */
+.btn-custom {
+  background-color: #808c94;
+  border-color: #808c94;
+  color: #ffffff;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #646e75;
+  border-color: #646e75;
+}
+
+/* Disabled Button */
+.btn-disabled,
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Icon Button */
+.btn-icon {
+  padding: 8px;
+  background-color: transparent;
+  border: none;
+  color: #2186c8;
+  transition: color 0.3s ease;
+}
+
+.btn-icon:hover {
+  color: #1a6ea1;
+}
+
+/* Full-width Button */
+.btn-full {
+  display: block;
+  width: 100%;
+}
+
+/* Rounded Button */
+.btn-rounded {
+  border-radius: 50px;
+}
+
+/* Small Button */
+.btn-small {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+/* Large Button */
+.btn-large {
+  padding: 16px 32px;
+  font-size: 20px;
+}
+
+/* Outlined Button */
+.btn-outline {
+  background-color: transparent;
+  color: #2186c8;
+  border: 2px solid #2186c8;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: #2186c8;
+  color: #ffffff;
+}
+
+
+/* Button with Border */
+.btn-border {
+  border: 2px solid #2186c8;
+}
+
+.btn-border:hover {
+  background-color: #2186c8;
+  color: #ffffff;
+}
+
+/* Button with Shadow */
+.btn-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-shadow:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Button with Gradient */
+.btn-gradient {
+  background-image: linear-gradient(to right, #2186c8, #1a6ea1);
+  color: #ffffff;
+}
+
+.btn-gradient:hover {
+  background-image: linear-gradient(to right, #1a6ea1, #096089);
+}
+
+/* Button with Rounded Borders */
+
+.btn-rounded:hover {
+  background-color: #1a6ea1;
+}
+
+/* Button with Underline */
+.btn-underline {
+  text-decoration: underline;
+}
+
+.btn-underline:hover {
+  text-decoration: none;
+}
+
+/* Button with Fade Effect */
+.btn-fade {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-fade:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn-fade:hover:before {
+  opacity: 1;
+}
+
+/* Button with Spin Animation */
+.btn-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Additional Button Styles */
+
+/* Button with Border and Shadow */
+.btn-border-shadow {
+  border: 2px solid #808c94;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-border-shadow:hover {
+  background-color: #646e75;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Button with Outline */
+.btn-outline-alt {
+  background-color: transparent;
+  color: #808c94;
+  border: 2px solid #808c94;
+}
+
+.btn-outline-alt:hover {
+  background-color: #808c94;
+  color: #ffffff;
+}
+
+/* Button with Shadow on Hover */
+.btn-hover-shadow {
+  background-color: #2186c8;
+  color: #ffffff;
+  transition: box-shadow 0.3s ease;
+}
+
+.btn-hover-shadow:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Button with Gradient Background */
+.btn-gradient-alt {
+  background-image: linear-gradient(to right, #e35f6b, #c84b59);
+  color: #ffffff;
+}
+
+.btn-gradient-alt:hover {
+  background-image: linear-gradient(to right, #c84b59, #a53a48);
+}
+
+/* Button with Underline on Hover */
+.btn-hover-underline {
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+.btn-hover-underline:hover {
+  text-decoration: underline;
+}
+
+/* Button with Grow Effect on Hover */
+.btn-grow {
+  transition: transform 0.3s ease;
+}
+
+.btn-grow:hover {
+  transform: scale(1.1);
+}

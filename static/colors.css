@@ -1,0 +1,83 @@
+/* Background Colors */
+.bg-primary {
+  background-color: #2186c8;
+  color: #ffffff;
+}
+
+.bg-secondary {
+  background-color: #808c94;
+  color: #ffffff;
+}
+
+.bg-success {
+  background-color: #3cb371;
+  color: #ffffff;
+}
+
+.bg-danger {
+  background-color: #e35f6b;
+  color: #ffffff;
+}
+
+.bg-warning {
+  background-color: #ffa600;
+  color: #212529;
+}
+
+.bg-info {
+  background-color: #32acc1;
+  color: #ffffff;
+}
+
+.bg-light {
+  background-color: #f9fafb;
+  color: #212529;
+}
+
+.bg-dark {
+  background-color: #3b444b;
+  color: #ffffff;
+}
+
+.bg-transparent {
+  background-color: transparent;
+  color: inherit;
+}
+
+/* Text Colors */
+.text-primary {
+  color: #2186c8;
+}
+
+.text-secondary {
+  color: #808c94;
+}
+
+.text-success {
+  color: #3cb371;
+}
+
+.text-danger {
+  color: #e35f6b;
+}
+
+.text-warning {
+  color: #ffa600;
+}
+
+.text-info {
+  color: #32acc1;
+}
+
+.text-light {
+  color: #f9fafb;
+}
+
+.text-dark {
+  color: #3b444b;
+}
+
+.text-custom {
+  /* Add your custom text color here */
+  color: #000000;
+}

@@ -1,0 +1,108 @@
+/* Border Colors */
+.border-test {
+  border: 1px solid red;
+}
+
+.border-primary {
+  border-color: #007bff;
+}
+
+.border-secondary {
+  border-color: #6c757d;
+}
+
+.border-success {
+  border-color: #28a745;
+}
+
+.border-danger {
+  border-color: #dc3545;
+}
+
+.border-warning {
+  border-color: #ffc107;
+}
+
+.border-info {
+  border-color: #17a2b8;
+}
+
+.border-light {
+  border-color: #f8f9fa;
+}
+
+.border-dark {
+  border-color: #343a40;
+}
+
+.border-custom {
+  /* Add your custom border color here */
+  border-color: #000000;
+}
+
+/* Border Widths */
+.border-0 {
+  border-width: 0;
+}
+
+.border-1 {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-3 {
+  border-width: 3px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+/* Border Radius */
+.rounded-0 {
+  border-radius: 0;
+}
+
+.rounded-1 {
+  border-radius: 0.125rem;
+}
+
+.rounded-2 {
+  border-radius: 0.25rem;
+}
+
+.rounded-3 {
+  border-radius: 0.5rem;
+}
+
+.rounded-4 {
+  border-radius: 1rem;
+}
+
+.rounded-pill {
+  border-radius: 50rem;
+}
+
+/* Border Styles */
+.border-solid {
+  border-style: solid;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
+.border-double {
+  border-style: double;
+}
+
+.border-none {
+  border-style: none;
+}

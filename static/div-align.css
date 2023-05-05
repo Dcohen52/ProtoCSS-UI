@@ -1,0 +1,238 @@
+/* Div Alignment Styles */
+
+/* Center Alignment */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Left Alignment */
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Right Alignment */
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* Top Alignment */
+.top {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Bottom Alignment */
+.bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Justify Alignment */
+jc-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+jc-sa {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Vertical Alignment */
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Horizontal Alignment */
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Div Alignment Styles */
+
+/* Display Modes */
+.d-flex {
+  display: flex;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-inline-grid {
+  display: inline-grid;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+/* Justify Modes */
+jc-start {
+  justify-content: flex-start;
+}
+
+jc-end {
+  justify-content: flex-end;
+}
+
+jc-center {
+  justify-content: center;
+}
+
+jc-space-between {
+  justify-content: space-between;
+}
+
+jc-space-around {
+  justify-content: space-around;
+}
+
+jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+/* Align Modes */
+.ai-align-start {
+  align-items: flex-start;
+}
+
+.ai-align-end {
+  align-items: flex-end;
+}
+
+.ai-align-center {
+  align-items: center;
+}
+
+.ai-align-stretch {
+  align-items: stretch;
+}
+
+.ai-align-baseline {
+  align-items: baseline;
+}
+
+/* Align Content Modes */
+.ac-start {
+  align-content: flex-start;
+}
+
+.ac-end {
+  align-content: flex-end;
+}
+
+.ac-center {
+  align-content: center;
+}
+
+.ac-space-between {
+  align-content: space-between;
+}
+
+.ac-space-around {
+  align-content: space-around;
+}
+
+.space-evenly {
+  align-content: space-evenly;
+}
+
+/* Flex Direction Modes */
+.fd-row {
+  flex-direction: row;
+}
+
+.fd-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.fd-column-reverse {
+  flex-direction: column-reverse;
+}
+
+/* Flex Wrap Modes */
+
+.fw-wrap {
+  flex-wrap: wrap;
+}
+
+.fw-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.fw-nowrap {
+  flex-wrap: nowrap;
+}
+
+/* Flex Grow Modes */
+
+.fg-0 {
+  flex-grow: 0;
+}
+
+.fg-1 {
+  flex-grow: 1;
+}
+
+.fg-2 {
+  flex-grow: 2;
+}
+
+.fg-3 {
+  flex-grow: 3;
+}
+
+.fg-4 {
+  flex-grow: 4;
+}
+
+.fg-5 {
+  flex-grow: 5;
+}
+
+.fg-6 {
+  flex-grow: 6;
+}
+
+.fg-7 {
+  flex-grow: 7;
+}
+
+.fg-8 {
+  flex-grow: 8;
+}
+
+.fg-9 {
+  flex-grow: 9;
+}
+
+.fg-10 {
+  flex-grow: 10;
+}
+
