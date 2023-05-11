@@ -1,2 +1,2 @@
-# ProtoCSS
- Prototyping UI framework
+# UI Kit
+My personalized UI kit for web dev.
